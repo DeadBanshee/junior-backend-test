@@ -8,7 +8,7 @@
 6. The e-mail validation logic is separated into two parts, one for creations and another for updates, as Laravel doesn't allow me to update a row if the "unique" constraint is set in the validation without some context to guarantee proper behavior.
 7. The task asked for a front end using Inertia and Vue.js, so I had to alter the test 'it should be able to list contacts paginated by 10 items per page' for it to check if the pagination was being generated correctly.
 8. I removed some of the .gitignore from the project to give a clearer view of the project in the Github Repo
-
+9. Git doesn't keep track of empty files, so I added a .gitkeep inside /Unit to guarantee the tests run properly
 
 
 Objective:
